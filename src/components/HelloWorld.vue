@@ -57,7 +57,7 @@ ul {
   li {
     display: inline-block;
     margin: 0 10px;
-    background: black;
+    background: var(--color-pokemon-ghost);
   }
 }
 a {
