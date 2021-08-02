@@ -15,6 +15,6 @@ export const get = async <T>(url: string, params: Record<string, unknown>, onErr
     } else {
       onError(jsonError)
     }
-    console.log(e)
+    throw e
   }
 }
